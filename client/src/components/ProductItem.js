@@ -4,7 +4,7 @@ import Image from "react-bootstrap/Image";
 import { useNavigate } from 'react-router-dom';
 import { DEVICE_ROUTE } from "../utils/consts";
 import { BsStarFill, BsHeart, BsHeartFill, BsCartPlus } from 'react-icons/bs';
-import { addToBasket, addFavorite, removeFavorite, fetchFavorites } from '../http/deviceAPI';
+import { addToBasket, addFavorite, removeFavorite, fetchFavorites } from '../http/ProductAPI';
 import { useBasket } from "../context/BasketContext";
 import { Context } from '../index';
 import { observer } from 'mobx-react-lite';

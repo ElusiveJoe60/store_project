@@ -8,7 +8,7 @@ import { check } from './http/userAPI';
 import { Spinner } from 'react-bootstrap';
 import Footer from './components/Footer';
 import { BasketProvider } from './context/BasketContext';
-import { fetchFavorites } from './http/deviceAPI';
+import { fetchFavorites } from './http/ProductAPI';
 import './App.css';
 import Admin from './pages/Admin';
 import BasketPage from './pages/BasketPage';

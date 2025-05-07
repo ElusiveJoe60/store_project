@@ -4,7 +4,7 @@ import { observer } from 'mobx-react-lite';
 import { Context } from '../index';
 import { BsHeart, BsBoxSeam, BsGear, BsPersonCircle, BsCartPlus } from 'react-icons/bs';
 import profileImage from '../assets/profile.png';
-import { fetchFavorites, removeFavorite } from '../http/deviceAPI';
+import { fetchFavorites, removeFavorite } from '../http/ProductAPI';
 
 const ProfilePage = observer(() => {
   const { user } = useContext(Context);

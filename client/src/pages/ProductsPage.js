@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { fetchOneDevice } from "../http/deviceAPI";
+import { fetchOneDevice } from "../http/ProductAPI";
 import { useBasket } from "../context/BasketContext";
 import { BsCartPlus, BsCheckLg, BsStarFill } from "react-icons/bs";
 
